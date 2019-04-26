@@ -25,10 +25,10 @@ class CoursesPage extends React.Component {
 
   render() {
     return (
-      <>
+      <React.Fragment>
         <h2>Courses</h2>
         <CourseList courses={this.props.courses} />
-      </>
+      </React.Fragment>
     );
   }
 }
