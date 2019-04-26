@@ -1,15 +1,15 @@
 import * as types from "./actionTypes";
 import * as courseApi from "../../api/courseApi";
 
-function loadCourseSuccess(courses) {
+export function loadCourseSuccess(courses) {
   return { type: types.LOAD_COURSES_SUCCESS, courses };
 }
 
-function createCourseSuccess(course) {
+export function createCourseSuccess(course) {
   return { type: types.CREATE_COURSE_SUCCESS, course };
 }
 
-function updateCourseSuccess(course) {
+export function updateCourseSuccess(course) {
   return { type: types.UPDATE_COOURSE_SUCCESS, course };
 }
 
